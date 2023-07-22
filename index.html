@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Stats</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/analytics.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaq.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <div class="Top-container">
+        <div class="main-container">
+            <nav class="navbar">
+                <div class="icon icon-1">
+                    <img class="butt-image"  src="./Assets/WhatsApp Image 2023-07-19 at 21.30.38.jpg" height="30px" width="30px">
+                    <span class="glass-icon"><i class="fa-solid fa-magnifying-glass fa-beat" style="color: #6d7374a8;position: relative;left: 3px;top: 1.8px;"></i></span>
+                </div>
+                <div class="icon icon-2">
+                  <span class="home-icon"><i class="fa-solid fa-house fa-beat" style="color: #ffffff; position: relative;left: 7.5px;top: 7px;"></i></span>  
+                  <span class="wallet-icon"><i class="fa-solid fa-wallet fa-beat fa-lg" style="color: #6d7374a8;"></i></span>
+                  <span class="bar-icon"><i style="color: #6d7374a8 ;" class="fa-solid fa-bars fa-beat"></i></span>
+                  <span class="user-icon"><i style="color: #6d7374a8 ;" class="fa-solid fa-user fa-beat"></i></span>
+
+                </div>
+                <div class="icon icon-3">
+                    <span class="bell-icon"><i style="color: #6d7374a8 ;" class="fa-solid fa-bell fa-beat"></i></span>
+                    <span class="log-out-icon"><i style="color: #6d7374a8 ;" class="fa-solid fa-right-from-bracket fa-beat"></i></span>
+
+
+
+                </div>
+
+            </nav>
+            <div class="info">
+                <div class="user">
+                    <img class="my-Image" src="./Assets/IMG_20230507_164206.jpg" height="60px" width="60px ">
+                    <div class="user-name">
+                        <h3 style="font-size: 1.4rem;"  ><b>Hi Ayushman,</b></h3>
+                        <p  style="font-family: 'Noto Sans Cypro Minoan';color: black ;font-size: small;position: relative;top: 6px;">welcome back.</p>
+                    </div>
+                </div>
+                <div class="cash-amount">
+                    <h3 style="position: relative;top: 35px;" style="font-size: medium;">Today</h3>
+                    <h3  style="font-size: x-large;font-family: Verdana, Geneva, Tahoma, sans-serif;position: relative;top: 25px;">$19,892</h3>
+                    <p style="position: relative;top: 5px;font-size: smaller;">Account Balance</p>
+                    <h3  style="position: relative;top: -10px;font-size:medium;font-family: Verdana, Geneva, Tahoma, sans-serif;">$4,000</h3>
+                    <p style="position: relative;top: -30px;font-size: smaller;">Year-to-Date Contributions</p>
+                    <h3  style="position: relative;top: -45px;font-size:medium;font-family: Verdana, Geneva, Tahoma, sans-serif;">$1,892</h3>
+                    <p style="position: relative;top: -65px;font-size: smaller;">Total Interest</p>
+                    
+                    <button style="position: relative;top: -70px;" class="button">I want to  <i class="fa-solid fa-caret-down fa-beat" style="color: #ffffff;"></i></button>
+                </div>
+ 
+
+
+                <div class="cash-info">
+
+
+                    <h3 style="font-size: medium;">Recent Transactions</h3>
+                    <p style="margin-top:10px ;">2020-08-07</p>
+                    <p style="margin-top:10px ;color: black;font-size: smaller;">Withdrawal Transfer to Bank-XXX11</p>
+                    <hr style="margin-top: 10px;position: relative;right: -1px;width: 220px;">
+                    <p style="margin-top:10px ;">2020-07-21</p>
+                    <p style="margin-top:10px ;color: black;font-size: smaller;">Withdrawal Transfer to Bank-XXX11</p>
+                    <hr style="margin-top: 10px;position: relative;right: -1px;width: 220px;">
+                    <p style="margin-top:10px ;">2020-07-16</p>
+                    <p style="margin-top:10px ;color: black;font-size: smaller;">Withdrawal Transfer to Bank-XXX11</p>
+                    <hr style="margin-top: 10px;position: relative;right: -1px;width: 220px;">
+
+
+
+
+                </div>
+
+            </div>
+            <div class="stats">
+                <div class="text-data">
+                    <h3 style="font-size: small;color: rgb(47, 44, 244);">Retirement Income</h3>
+            
+                    <h3 style="margin-top: 6px;">Starting Year 2056</h3>
+                    <div class="ret-stats">
+                        <div class="ret-val">
+                            <h3 style="font-size: x-large;font-family: Verdana, Geneva, Tahoma, sans-serif;">$300,000</h3>
+                            <p>My Goal</p>
+                            <div style="width: 150px;background-color: rgb(47, 44, 244) ;height: 2px;"></div>
+                        </div>
+                        <div class="ret-val">
+                            <h3 style="font-size: x-large;font-family: Verdana, Geneva, Tahoma, sans-serif;">59%</h3>
+                            <p>Goal Achieved</p>
+                            <div style="width: 150px;background-color: rgb(47, 44, 244) ;height: 2px;"></div>
+
+                        </div>
+                        <div class="ret-val">
+                            <h3 style="font-size: x-large;font-family: Verdana, Geneva, Tahoma, sans-serif;">$300</h3>
+                            <p>Est. Monthly Income</p>
+                            <div style="width: 150px;background-color: rgb(47, 44, 244) ;height: 2px;"></div>
+                          
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="bar-data">
+                    <h3 class="co">Contributions Overtime</h3>
+                    <div class="emp-sign">
+                        <div class="emp" style="display: flex;gap: 10px;">
+                            <div style="background-color: rgb(9, 5, 188);height: 9px;width: 17px;border-radius: 50px;"></div>
+                            <p style="position: relative;top: -5.5px;">Employer: <p style="color: black;position: relative;top: -5.5px;">K 73,500</p> </p>
+                         </div>
+                         <div class="emp"  style="display: flex;gap: 10px;">
+                            <div style="background-color: rgb(47, 44, 244);height: 9px;width: 17px;border-radius: 50px;"></div>
+                            <p style="position: relative;top: -5.5px;">Employee: <p style="color: black;position: relative;top: -5.5px;">K 52,500</p> </p>
+                         </div>
+                         <div class="emp"  style="display: flex;gap: 10px;">
+                            <div style="background-color: rgb(126, 124, 245);height: 9px;width: 17px;border-radius: 50px;"></div>
+                            <p style="position: relative;top: -5.5px;">Total Interest: <p style="color: black;position: relative;top: -5.5px;">K 244,313</p> </p>
+                         </div>
+                        
+                       
+                    </div>
+                    <div class="bar">
+                        <div class="bar-data">
+                            <p style="position: relative;top: -40px;color: black;">$300</p>
+                            <p  style="position: relative;top: 5px;color: black">$200</p>
+                            <p style="position: relative;top: 45px;color: black">$100</p>
+                            <p style="position: relative;top: 90px;color: black">$0</p>
+                        </div>
+                        <div class="barjs">
+                            <canvas id="myChart" aria-label="chart" role="img" height="200" width="600"></canvas>
+                      
+
+
+                        </div>
+
+                     </div>
+
+                </div>
+                <div class="pie-data">
+                    <h3>How do I compare to my peers</h3>
+                    <p style="margin-top: 8px;">These numbers represents current goal achievment</p>
+                    <div class="piee-data">
+                        <div class="pieee-data">
+                            <p>Age: Under 30</p>
+                            <hr style="width: 200px; margin-top: 10px;">
+                            <br>
+                            <p>Salary K 20-K 30</p>
+                            <hr style="width: 200px; margin-top: 10px;">
+                            <br>
+                            <p>Gender: Male</p>
+                            <hr style="width: 200px; margin-top: 10px;">
+
+    
+                        </div>
+                       
+    
+                    </div>
+                
+                
+                </div>
+                <div class="card">
+                    <h3>Retirement Strategy</h3>
+                    <p style="color: black;">Emoloyee Contribution</p>
+                    <div class="slider" >
+                        <input class="mySlider" type="range"  min="0" max="100" value="12" id="sliderRange">
+                        <div style="position: relative;top: -8px;left: 20px;" class="val">
+                            <p style="color: black;"><span id="demo"></span>%</p>
+
+                        </div>
+                        
+
+                    </div>
+                    
+                    <p style="color: black;">Retirement Age</p>
+                    <div  class="slider">
+                        <input class="mySlider" type="range" min="40" max="75" value="65" id="sliderRange2">
+                        <div style="position: relative;top: -6px;left: 20px;" class="val">
+                            <p style="color: black;"><span  id="demo2"></span></p>
+
+                        </div>
+                       
+
+
+                    </div>
+                    <hr style="width: 255px; display: flex; justify-content: center;align-items: center;" >
+                    <div class="ec">
+                        <p style="color: black;">Employer Contribution</p>
+                        <p style="color: black; position: relative;top: 0px;left: 70px;">8.4%</p>
+                    </div>
+                    <div class="ec">
+                        <p style="color: black;">Interest Rate</p>
+                        <p style="color: black; position: relative;top: 0px;left: 140px;">5%</p>
+                        
+                    </div>
+                    <button style="position: relative;width: 250px; " class="button">Update</button>
+                        <p style="color: rgb(47, 44, 244); position: relative; left: 75px;">View Help Docs></p>
+                    
+
+
+                </div>
+                <div class="last-div" >
+                    <div class="line">
+                        <div style="height: 115px; width: 2px;background-color:rgb(47, 44, 244) ;"></div>
+
+                    </div>
+                    <div class="ha" style="display: flex; gap: 8px;flex-direction: column;">
+                        <p style="color: rgb(66, 64, 64);font-size: medium;">Are you considering a</p>
+                        <h3>Housing Advance?</h3>
+                        <p>Limited time reduce interest.</p>
+                        <p style="color: rgb(47, 44, 244);">Learn more  <i class="fa-solid fa-greater-than fa-beat" style="color: #2f2cf4; position: relative;left: 3px;top: 2px;"></i></p>
+
+                    </div>
+                </div>
+                <div class="pie-d">
+                    <div class="pie-1">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span style="position: relative;left: 25px;" class="text">Average</span>
+    
+
+
+                    </div>
+                    <div class="pie-1">
+                        <div id="circular-progress-1"  class="circular-progress">
+                            <span id="progress-value-1"   class="progress-value">0%</span>
+                        </div>
+                        <span  style="position: relative;left: 45px;" class="text">Top</span>
+    
+
+
+                    </div>
+                    <div class="pie-1">
+                        <div id="circular-progress-2" class="circular-progress">
+                            <span id="progress-value-2"  class="progress-value">0%</span>
+                        </div>
+                        <span  style="position: relative;left: 45px;" class="text">Me</span>
+    
+
+
+                    </div>
+                  
+                    </div>
+
+                          
+
+    
+                </div>
+          
+        
+
+            </div>
+
+        </div>
+      
+    <script src="./chart.js"></script>
+    <!-- <script src="./index.js"></script> -->
+</body>
+</html>
